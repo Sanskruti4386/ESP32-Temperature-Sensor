@@ -30,3 +30,12 @@ Run the following commands on each edge node to install and start the Mosquitto 
 sudo apt update
 sudo apt install mosquitto mosquitto-clients -y
 sudo systemctl enable mosquitto
+
+### 2. Upload code to ESP32
+Open the esp32_temp_sensor.ino file in the Arduino IDE or PlatformIO.
+
+Update the Wi-Fi credentials (ssid and password) in the code.
+
+Update the MQTT broker IP addresses in the mqtt_servers array.
+
+Upload the code to your ESP32.
